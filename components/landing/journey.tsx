@@ -38,7 +38,7 @@ const journeySteps = [
 
 export function Journey() {
   return (
-    <section className="relative -mt-24 pt-0 pb-24 overflow-hidden" style={{ background: "linear-gradient(to bottom, oklch(0.985 0 0) 0%, oklch(0.97 0.005 260) 10%, oklch(0.85 0.01 260) 25%, oklch(0.5 0.015 260) 45%, oklch(0.2 0.02 260) 65%, oklch(0.12 0.02 260) 85%, oklch(0.08 0.02 260) 100%)" }}>
+    <section className="relative -mt-20 pt-0 pb-24 overflow-hidden" style={{ background: "linear-gradient(to bottom, oklch(0.985 0 0) 0%, oklch(0.97 0.005 260) 10%, oklch(0.85 0.01 260) 25%, oklch(0.5 0.015 260) 45%, oklch(0.2 0.02 260) 65%, oklch(0.12 0.02 260) 85%, oklch(0.08 0.02 260) 100%)" }}>
       <div className="mx-auto max-w-6xl px-6">
         {/* Header */}
         <div className="text-center mb-20">

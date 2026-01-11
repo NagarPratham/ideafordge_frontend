@@ -167,10 +167,10 @@ export function ValidationWizard() {
   }
 
   return (
-    <div className="mx-auto max-w-3xl px-3 sm:px-4 md:px-6">
+    <div className="mx-auto max-w-3xl px-3 sm:px-4 md:px-6" style={{ overflowY: 'visible' }}>
       {/* Progress indicator */}
-      <div className="mb-6 sm:mb-8 md:mb-12">
-        <div className="flex items-center justify-between overflow-x-auto pb-2">
+      <div className="mb-1 sm:mb-2 md:mb-3" style={{ overflowY: 'visible', paddingTop: '1rem', marginTop: '-1rem' }}>
+        <div className="flex items-center justify-between pb-2" style={{ overflowX: 'hidden', overflowY: 'visible' }}>
           {steps.map((step, index) => (
             <div key={step.id} className="flex items-center shrink-0">
               <div className="flex flex-col items-center">
@@ -178,7 +178,6 @@ export function ValidationWizard() {
                   initial={false}
                   animate={{
                     backgroundColor: currentStep >= step.id ? "var(--primary)" : "var(--secondary)",
-                    scale: currentStep === step.id ? 1.1 : 1,
                   }}
                   className="flex h-10 w-10 sm:h-12 sm:w-12 items-center justify-center rounded-full transition-colors"
                 >
