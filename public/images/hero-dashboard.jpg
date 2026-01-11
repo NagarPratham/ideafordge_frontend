@@ -1,0 +1,139 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dashboard background -->
+  <rect width="1600" height="1000" fill="#ffffff"/>
+  
+  <!-- Header bar -->
+  <rect x="0" y="0" width="1600" height="80" fill="#f8fafc"/>
+  <rect x="0" y="80" width="1600" height="1" fill="#e2e8f0"/>
+  
+  <!-- Logo area -->
+  <circle cx="50" cy="40" r="18" fill="url(#logo-gradient)"/>
+  <rect x="90" y="28" width="150" height="24" rx="4" fill="#cbd5e1" opacity="0.3"/>
+  
+  <!-- Top metrics cards -->
+  <g opacity="0.9">
+    <!-- Card 1 - Validation Score -->
+    <rect x="50" y="120" width="320" height="160" rx="12" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <rect x="70" y="140" width="100" height="12" rx="2" fill="#94a3b8" opacity="0.4"/>
+    <text x="70" y="190" font-family="Arial" font-size="48" fill="#10b981" font-weight="bold">87</text>
+    <text x="130" y="195" font-family="Arial" font-size="24" fill="#94a3b8">/100</text>
+    <rect x="70" y="220" width="80" height="8" rx="2" fill="#cbd5e1" opacity="0.3"/>
+    
+    <!-- Card 2 - Market Size -->
+    <rect x="400" y="120" width="320" height="160" rx="12" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <rect x="420" y="140" width="120" height="12" rx="2" fill="#94a3b8" opacity="0.4"/>
+    <text x="420" y="190" font-family="Arial" font-size="42" fill="#06b6d4" font-weight="bold">$2.4B</text>
+    <rect x="420" y="220" width="90" height="8" rx="2" fill="#cbd5e1" opacity="0.3"/>
+    
+    <!-- Card 3 - Competition -->
+    <rect x="750" y="120" width="320" height="160" rx="12" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <rect x="770" y="140" width="110" height="12" rx="2" fill="#94a3b8" opacity="0.4"/>
+    <text x="770" y="190" font-family="Arial" font-size="42" fill="#8b5cf6" font-weight="bold">Medium</text>
+    <rect x="770" y="220" width="70" height="8" rx="2" fill="#cbd5e1" opacity="0.3"/>
+    
+    <!-- Card 4 - Feasibility -->
+    <rect x="1100" y="120" width="320" height="160" rx="12" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <rect x="1120" y="140" width="100" height="12" rx="2" fill="#94a3b8" opacity="0.4"/>
+    <text x="1120" y="190" font-family="Arial" font-size="48" fill="#f59e0b" font-weight="bold">92%</text>
+    <rect x="1120" y="220" width="85" height="8" rx="2" fill="#cbd5e1" opacity="0.3"/>
+  </g>
+  
+  <!-- Large chart area -->
+  <rect x="50" y="320" width="750" height="400" rx="12" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+  <rect x="70" y="340" width="150" height="16" rx="2" fill="#94a3b8" opacity="0.4"/>
+  
+  <!-- Line chart -->
+  <g transform="translate(100, 420)">
+    <polyline 
+      points="0,250 100,220 200,180 300,160 400,120 500,80 600,50" 
+      fill="none" 
+      stroke="url(#chart-gradient)" 
+      stroke-width="4" 
+      stroke-linecap="round"
+      opacity="0.8"
+    />
+    <!-- Chart points -->
+    <circle cx="0" cy="250" r="6" fill="#06b6d4"/>
+    <circle cx="100" cy="220" r="6" fill="#06b6d4"/>
+    <circle cx="200" cy="180" r="6" fill="#8b5cf6"/>
+    <circle cx="300" cy="160" r="6" fill="#8b5cf6"/>
+    <circle cx="400" cy="120" r="6" fill="#10b981"/>
+    <circle cx="500" cy="80" r="6" fill="#10b981"/>
+    <circle cx="600" cy="50" r="6" fill="#10b981"/>
+    
+    <!-- Grid lines -->
+    <g opacity="0.1" stroke="#94a3b8">
+      <line x1="0" y1="50" x2="600" y2="50" stroke-width="1"/>
+      <line x1="0" y1="125" x2="600" y2="125" stroke-width="1"/>
+      <line x1="0" y1="200" x2="600" y2="200" stroke-width="1"/>
+      <line x1="0" y1="275" x2="600" y2="275" stroke-width="1"/>
+    </g>
+  </g>
+  
+  <!-- SWOT Analysis section -->
+  <rect x="830" y="320" width="590" height="400" rx="12" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+  <rect x="850" y="340" width="120" height="16" rx="2" fill="#94a3b8" opacity="0.4"/>
+  
+  <!-- SWOT quadrants -->
+  <g transform="translate(860, 380)">
+    <!-- Strengths -->
+    <rect x="0" y="0" width="260" height="150" rx="8" fill="#dcfce7"/>
+    <rect x="15" y="15" width="80" height="12" rx="2" fill="#10b981" opacity="0.6"/>
+    <rect x="15" y="40" width="220" height="4" rx="1" fill="#16a34a" opacity="0.3"/>
+    <rect x="15" y="52" width="200" height="4" rx="1" fill="#16a34a" opacity="0.3"/>
+    <rect x="15" y="64" width="210" height="4" rx="1" fill="#16a34a" opacity="0.3"/>
+    
+    <!-- Weaknesses -->
+    <rect x="280" y="0" width="260" height="150" rx="8" fill="#fee2e2"/>
+    <rect x="295" y="15" width="90" height="12" rx="2" fill="#ef4444" opacity="0.6"/>
+    <rect x="295" y="40" width="210" height="4" rx="1" fill="#dc2626" opacity="0.3"/>
+    <rect x="295" y="52" width="190" height="4" rx="1" fill="#dc2626" opacity="0.3"/>
+    
+    <!-- Opportunities -->
+    <rect x="0" y="170" width="260" height="150" rx="8" fill="#dbeafe"/>
+    <rect x="15" y="185" width="100" height="12" rx="2" fill="#06b6d4" opacity="0.6"/>
+    <rect x="15" y="210" width="220" height="4" rx="1" fill="#0891b2" opacity="0.3"/>
+    <rect x="15" y="222" width="200" height="4" rx="1" fill="#0891b2" opacity="0.3"/>
+    <rect x="15" y="234" width="230" height="4" rx="1" fill="#0891b2" opacity="0.3"/>
+    
+    <!-- Threats -->
+    <rect x="280" y="170" width="260" height="150" rx="8" fill="#fef3c7"/>
+    <rect x="295" y="185" width="70" height="12" rx="2" fill="#f59e0b" opacity="0.6"/>
+    <rect x="295" y="210" width="200" height="4" rx="1" fill="#d97706" opacity="0.3"/>
+    <rect x="295" y="222" width="210" height="4" rx="1" fill="#d97706" opacity="0.3"/>
+  </g>
+  
+  <!-- Bottom insights bar -->
+  <rect x="50" y="750" width="1370" height="200" rx="12" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+  <rect x="70" y="770" width="140" height="16" rx="2" fill="#94a3b8" opacity="0.4"/>
+  
+  <!-- Insight cards -->
+  <g transform="translate(70, 810)">
+    <rect x="0" y="0" width="200" height="100" rx="8" fill="#f0f9ff"/>
+    <rect x="15" y="15" width="30" height="30" rx="6" fill="#06b6d4" opacity="0.2"/>
+    <rect x="15" y="60" width="150" height="6" rx="1" fill="#cbd5e1" opacity="0.4"/>
+    <rect x="15" y="72" width="130" height="6" rx="1" fill="#cbd5e1" opacity="0.3"/>
+    
+    <rect x="220" y="0" width="200" height="100" rx="8" fill="#f5f3ff"/>
+    <rect x="235" y="15" width="30" height="30" rx="6" fill="#8b5cf6" opacity="0.2"/>
+    <rect x="235" y="60" width="140" height="6" rx="1" fill="#cbd5e1" opacity="0.4"/>
+    <rect x="235" y="72" width="160" height="6" rx="1" fill="#cbd5e1" opacity="0.3"/>
+    
+    <rect x="440" y="0" width="200" height="100" rx="8" fill="#f0fdf4"/>
+    <rect x="455" y="15" width="30" height="30" rx="6" fill="#10b981" opacity="0.2"/>
+    <rect x="455" y="60" width="135" height="6" rx="1" fill="#cbd5e1" opacity="0.4"/>
+    <rect x="455" y="72" width="155" height="6" rx="1" fill="#cbd5e1" opacity="0.3"/>
+  </g>
+  
+  <defs>
+    <linearGradient id="logo-gradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="chart-gradient" x1="0" y1="0" x2="600" y2="0">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,122 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark dramatic background -->
+  <rect width="1920" height="1080" fill="url(#cta-bg-gradient)"/>
+  
+  <!-- Abstract tech pattern -->
+  <g opacity="0.15">
+    <!-- Circuit lines -->
+    <line x1="0" y1="200" x2="400" y2="200" stroke="#06b6d4" stroke-width="2"/>
+    <line x1="400" y1="200" x2="400" y2="400" stroke="#06b6d4" stroke-width="2"/>
+    <line x1="400" y1="400" x2="800" y2="400" stroke="#8b5cf6" stroke-width="2"/>
+    <line x1="800" y1="400" x2="800" y2="600" stroke="#8b5cf6" stroke-width="2"/>
+    
+    <line x1="1920" y1="300" x2="1520" y2="300" stroke="#a855f7" stroke-width="2"/>
+    <line x1="1520" y1="300" x2="1520" y2="500" stroke="#a855f7" stroke-width="2"/>
+    <line x1="1520" y1="500" x2="1120" y2="500" stroke="#0ea5e9" stroke-width="2"/>
+    
+    <!-- Nodes -->
+    <circle cx="0" cy="200" r="8" fill="#06b6d4"/>
+    <circle cx="400" cy="200" r="8" fill="#06b6d4"/>
+    <circle cx="400" cy="400" r="8" fill="#8b5cf6"/>
+    <circle cx="800" cy="400" r="8" fill="#8b5cf6"/>
+    <circle cx="800" cy="600" r="8" fill="#a855f7"/>
+    
+    <circle cx="1920" cy="300" r="8" fill="#a855f7"/>
+    <circle cx="1520" cy="300" r="8" fill="#a855f7"/>
+    <circle cx="1520" cy="500" r="8" fill="#0ea5e9"/>
+    <circle cx="1120" cy="500" r="8" fill="#0ea5e9"/>
+  </g>
+  
+  <!-- Large geometric shapes -->
+  <g opacity="0.08">
+    <circle cx="300" cy="300" r="200" stroke="#06b6d4" stroke-width="2" fill="none"/>
+    <circle cx="300" cy="300" r="250" stroke="#8b5cf6" stroke-width="1" fill="none"/>
+    
+    <circle cx="1620" cy="780" r="180" stroke="#a855f7" stroke-width="2" fill="none"/>
+    <circle cx="1620" cy="780" r="230" stroke="#0ea5e9" stroke-width="1" fill="none"/>
+  </g>
+  
+  <!-- Hexagon grid pattern -->
+  <g opacity="0.05">
+    <g transform="translate(600, 200)">
+      <polygon points="50,0 100,25 100,75 50,100 0,75 0,25" stroke="#ffffff" stroke-width="1" fill="none"/>
+      <polygon points="150,0 200,25 200,75 150,100 100,75 100,25" stroke="#ffffff" stroke-width="1" fill="none"/>
+      <polygon points="250,0 300,25 300,75 250,100 200,75 200,25" stroke="#ffffff" stroke-width="1" fill="none"/>
+    </g>
+    <g transform="translate(650, 275)">
+      <polygon points="50,0 100,25 100,75 50,100 0,75 0,25" stroke="#ffffff" stroke-width="1" fill="none"/>
+      <polygon points="150,0 200,25 200,75 150,100 100,75 100,25" stroke="#ffffff" stroke-width="1" fill="none"/>
+    </g>
+  </g>
+  
+  <!-- Gradient orbs -->
+  <circle cx="200" cy="900" r="300" fill="url(#orb1)" opacity="0.15"/>
+  <circle cx="1700" cy="200" r="250" fill="url(#orb2)" opacity="0.15"/>
+  <circle cx="960" cy="540" r="400" fill="url(#orb3)" opacity="0.1"/>
+  
+  <!-- Particle field -->
+  <g opacity="0.3">
+    <circle cx="150" cy="150" r="2" fill="#06b6d4"/>
+    <circle cx="1800" cy="900" r="2" fill="#8b5cf6"/>
+    <circle cx="400" cy="700" r="2" fill="#a855f7"/>
+    <circle cx="1600" cy="400" r="2" fill="#0ea5e9"/>
+    <circle cx="800" cy="200" r="2" fill="#06b6d4"/>
+    <circle cx="1200" cy="850" r="2" fill="#8b5cf6"/>
+    <circle cx="300" cy="500" r="2" fill="#a855f7"/>
+    <circle cx="1400" cy="650" r="2" fill="#0ea5e9"/>
+    
+    <circle cx="500" cy="300" r="1.5" fill="#ffffff"/>
+    <circle cx="1100" cy="250" r="1.5" fill="#ffffff"/>
+    <circle cx="700" cy="800" r="1.5" fill="#ffffff"/>
+    <circle cx="1500" cy="750" r="1.5" fill="#ffffff"/>
+  </g>
+  
+  <!-- Abstract wave pattern at bottom -->
+  <path 
+    d="M 0 800 Q 480 750 960 800 T 1920 800 L 1920 1080 L 0 1080 Z" 
+    fill="url(#wave-gradient)" 
+    opacity="0.1"
+  />
+  
+  <!-- Subtle scanlines -->
+  <g opacity="0.02">
+    <line x1="0" y1="100" x2="1920" y2="100" stroke="#ffffff" stroke-width="1"/>
+    <line x1="0" y1="200" x2="1920" y2="200" stroke="#ffffff" stroke-width="1"/>
+    <line x1="0" y1="300" x2="1920" y2="300" stroke="#ffffff" stroke-width="1"/>
+    <line x1="0" y1="400" x2="1920" y2="400" stroke="#ffffff" stroke-width="1"/>
+    <line x1="0" y1="500" x2="1920" y2="500" stroke="#ffffff" stroke-width="1"/>
+    <line x1="0" y1="600" x2="1920" y2="600" stroke="#ffffff" stroke-width="1"/>
+    <line x1="0" y1="700" x2="1920" y2="700" stroke="#ffffff" stroke-width="1"/>
+    <line x1="0" y1="800" x2="1920" y2="800" stroke="#ffffff" stroke-width="1"/>
+    <line x1="0" y1="900" x2="1920" y2="900" stroke="#ffffff" stroke-width="1"/>
+    <line x1="0" y1="1000" x2="1920" y2="1000" stroke="#ffffff" stroke-width="1"/>
+  </g>
+  
+  <defs>
+    <linearGradient id="cta-bg-gradient" x1="0" y1="0" x2="1920" y2="1080">
+      <stop offset="0%" stop-color="#0a0a0a"/>
+      <stop offset="50%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#0f0f0f"/>
+    </linearGradient>
+    
+    <radialGradient id="orb1">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0"/>
+    </radialGradient>
+    
+    <radialGradient id="orb2">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    
+    <radialGradient id="orb3">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+    
+    <linearGradient id="wave-gradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+</svg>

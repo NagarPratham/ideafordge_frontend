@@ -1,0 +1,52 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark background representing late nights -->
+  <rect width="1600" height="1000" fill="#1a1a1a"/>
+  
+  <!-- Gradient overlay -->
+  <rect width="1600" height="1000" fill="url(#struggle-gradient)"/>
+  
+  <!-- Desk lamp glow -->
+  <circle cx="400" cy="300" r="200" fill="url(#lamp-glow)" opacity="0.6"/>
+  
+  <!-- Notebook pages scattered -->
+  <rect x="300" y="600" width="200" height="280" rx="4" fill="#f5f5f5" opacity="0.9" transform="rotate(-5 400 740)"/>
+  <rect x="550" y="580" width="220" height="300" rx="4" fill="#f0f0f0" opacity="0.8" transform="rotate(8 660 730)"/>
+  <rect x="200" y="650" width="180" height="250" rx="4" fill="#f8f8f8" opacity="0.7" transform="rotate(-12 290 775)"/>
+  
+  <!-- Lines on notebooks representing notes -->
+  <g opacity="0.3">
+    <line x1="320" y1="640" x2="460" y2="620" stroke="#666" stroke-width="2"/>
+    <line x1="320" y1="670" x2="460" y2="650" stroke="#666" stroke-width="2"/>
+    <line x1="320" y1="700" x2="440" y2="682" stroke="#666" stroke-width="2"/>
+  </g>
+  
+  <!-- Coffee cup -->
+  <ellipse cx="900" cy="750" rx="40" ry="45" fill="#8B4513" opacity="0.8"/>
+  <ellipse cx="900" cy="740" rx="40" ry="8" fill="#5D2E0F"/>
+  
+  <!-- Abstract thought bubbles/question marks -->
+  <circle cx="1200" cy="300" r="30" fill="#ffffff" opacity="0.15"/>
+  <circle cx="1250" cy="250" r="20" fill="#ffffff" opacity="0.12"/>
+  <circle cx="1180" cy="220" r="25" fill="#ffffff" opacity="0.1"/>
+  
+  <text x="1195" y="315" font-family="Arial" font-size="40" fill="#ffffff" opacity="0.3">?</text>
+  
+  <!-- Window with night sky -->
+  <rect x="1100" y="100" width="350" height="400" rx="8" fill="#0a0a0a" opacity="0.6"/>
+  <circle cx="1350" cy="200" r="40" fill="#f5e6d3" opacity="0.4"/>
+  <circle cx="1200" cy="250" r="2" fill="#ffffff" opacity="0.8"/>
+  <circle cx="1280" cy="280" r="2" fill="#ffffff" opacity="0.7"/>
+  <circle cx="1320" cy="220" r="2" fill="#ffffff" opacity="0.9"/>
+  <circle cx="1400" cy="300" r="2" fill="#ffffff" opacity="0.6"/>
+  
+  <defs>
+    <radialGradient id="struggle-gradient">
+      <stop offset="0%" stop-color="#2a1810" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.9"/>
+    </radialGradient>
+    <radialGradient id="lamp-glow">
+      <stop offset="0%" stop-color="#ffa500"/>
+      <stop offset="100%" stop-color="#ff6b00" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>
